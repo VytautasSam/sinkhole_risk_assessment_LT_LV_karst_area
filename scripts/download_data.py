@@ -283,9 +283,15 @@ def validate_download(item: dict) -> None:
                 f'First bytes: {path.read_bytes()[:80]!r}'
             )
         with zipfile.ZipFile(path) as z:
-            csv_names = [n for n in z.namelist() if n.lower().endswith('.csv')]
-            if not csv_names:
-                raise RuntimeError(f'{path.name} does not contain a CSV file.')
+            real_members = [
+                info.filename
+                for info in z.infolist()
+                if not info.is_dir()
+                and not info.filename.startswith('__MACOSX/')
+                and not info.filename.endswith('.DS_Store')
+            ]
+            if not real_members:
+                raise RuntimeError(f'{path.name} does not contain a data file.')
 
     elif path.suffix.lower() in {'.geojson', '.json'}:
         try:
