@@ -1,0 +1,20 @@
+# Reference lock from the environment used to assemble this GitHub bundle.
+# It is NOT claimed to be the exact historical Colab environment of the paper.
+# After you reproduce the results successfully, run:
+#   python scripts/capture_environment.py
+# and commit the generated requirements-reproduced.txt.
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+seaborn==0.13.2
+shap==0.50.0
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+statsmodels==0.14.6
+geopandas==1.1.2
+shapely==2.1.2
+pyproj==3.7.2
+Pillow==12.3.0
+requests==2.32.5
+jupyterlab==4.5.3
+gdown>=5,<6

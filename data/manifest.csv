@@ -1,0 +1,12 @@
+key,group,target_path,source_type,public_source,description,redistribution_note
+daily_master,core,data/raw/daily_hydroclimate_groundwater.zip,Google Drive,https://drive.google.com/file/d/11TvlNdqSQv6PPooHwt7f9A68Ibz1sQIU/view,Preprocessed daily groundwater + hydroclimate + storage master table used by the ML workflow,Downloaded at setup; not committed by default because it contains derived E-OBS/GLEAM/GLDAS content and may be large
+sinkholes,core,data/raw/sinkholes.csv,Google Sheet,https://docs.google.com/spreadsheets/d/160ntRKCTC3CzqCW8kwEuQ6fKoR7KPXtC/edit,Sinkhole inventory used for monthly occurrence counts,Downloaded at setup
+map_wells,map,data/map/wells.csv,Google Sheet,https://docs.google.com/spreadsheets/d/1JA6k672nA5W4eEvTDRCT7RGJPK_aWKRZ/edit,Well coordinates used in Figure 3,Downloaded at setup
+karst_lithuania,map,data/map/karst_lithuania.geojson,Google Drive,https://drive.google.com/file/d/1JuVp_mN1_1hPf_JFYa64NO4lMwnOtDFB/view,Lithuanian active karst layer,Downloaded at setup
+karst_latvia,map,data/map/karst_latvia.geojson,Google Drive,https://drive.google.com/file/d/1xc1lgdmSOYS2XMPkK2bYjwfG4-nYOEtT/view,Latvian active karst layer,Downloaded at setup
+baltic_cities,map,data/map/baltic_cities.geojson,Google Drive,https://drive.google.com/file/d/1t-zXz455_8Ku7OEIp5KdIpFtzaC0mmjx/view,Baltic cities layer for Figure 3,Downloaded at setup
+country_borders,map,data/map/country_borders.geojson,Google Drive,https://drive.google.com/file/d/1OtQC3aoqDlR9HJri_TJVmWCy-md6TD0y/view,Country borders for Figure 3,Downloaded at setup
+world,map,data/map/world.geojson,Google Drive,https://drive.google.com/file/d/13h_dMZ46UwB4Q1Eyh9fYYS2xhJHUn-P_/view,World polygons for Figure 3 inset,Downloaded at setup
+elevation,map,data/map/elevation.geojson,Google Drive,https://drive.google.com/file/d/1ouZHxIkmc1bNwg5X2Jquv_VZqomCGyYr/view,Elevation points for Figure 3,Downloaded at setup
+rivers,map,data/map/rivers.geojson,Google Drive,https://drive.google.com/file/d/1tGmaPScF6fkxzKbG1CINDmDDeBG4oxPm/view,Rivers layer for Figure 3,Downloaded at setup
+karst_regions,map,data/map/karst_regions.geojson,Google Drive,https://drive.google.com/file/d/1DELR18mmEPG1oV_rHGyMrGqkwRXftNt2/view,Historical/stabilized/active karst-domain polygons for Figure 3,Downloaded at setup

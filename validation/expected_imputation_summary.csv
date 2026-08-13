@@ -1,0 +1,9 @@
+well_no,CV_R2_mean,CV_R2_std,CV_MAE_mean,CV_MAE_std,feature_set_name,best_params
+LT_35994,0.790482,0.07618,0.157827,0.012348,with_seasonal,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
+LV_12225,0.673033,0.075276,0.117519,0.012208,no_seasonal,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}"
+LT_35995,0.643024,0.083962,0.12232,0.014305,no_seasonal,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
+LT_220,0.57686,0.129742,0.170395,0.023612,no_seasonal,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}"
+LV_22606,0.575158,0.126216,0.158444,0.014447,with_seasonal,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}"
+LV_22610,0.488683,0.089487,0.398933,0.033187,no_seasonal,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
+LT_35996,0.442071,0.185816,0.158069,0.023043,no_seasonal,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}"
+AVERAGE,0.598473,0.109526,0.183358,0.019022,,

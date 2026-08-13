@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Sinkhole risk forecasting in the Lithuania–Latvia Karst region using artificial intelligence: reproducibility workflow"
+message: "If you use this workflow, please cite the associated article."
+type: software
+authors:
+  - family-names: "Samalavičius"
+    given-names: "Vytautas"
+    orcid: "https://orcid.org/0000-0001-5791-7483"
+preferred-citation:
+  type: article
+  title: "Sinkhole risk forecasting in the Lithuania–Latvia Karst region using artificial intelligence"
+  authors:
+    - family-names: "Samalavičius"
+      given-names: "Vytautas"
+    - family-names: "Bikše"
+      given-names: "Jānis"
+    - family-names: "Zaslavsky"
+      given-names: "Ilya"
+    - family-names: "Lekstutytė"
+      given-names: "Ieva"
+    - family-names: "Arustienė"
+      given-names: "Jurga"
+    - family-names: "Žaržojus"
+      given-names: "Gintaras"
+    - family-names: "Kunsakova"
+      given-names: "Assemzhan"
+    - family-names: "Retike"
+      given-names: "Inga"
+    - family-names: "Gadeikienė"
+      given-names: "Sonata"
+    - family-names: "Gadeikis"
+      given-names: "Saulius"
+  journal: "Journal of Hydrology: Regional Studies"
+  volume: 65
+  year: 2026
+  doi: "10.1016/j.ejrh.2026.103372"
